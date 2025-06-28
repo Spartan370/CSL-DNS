@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://vevrl9air2.cloudflare-gateway.com/dns-query</string>
+                <key>ServerName</key>
+                <string>vevrl9air2.cloudflare-gateway.com</string>
+                <key>SupplementalMatchDomains</key>
+                <array>
+                    <string>ocsp.apple.com</string>
+                    <string>ocsp2.apple.com</string>
+                    <string>ocsp-lb.apple.com</string>
+                    <string>ocsp2-lb.apple.com</string>
+                    <string>ocsp2.g.aaplimg.com</string>
+                    <string>ocsp2-lb.apple.com.akadns.net</string>
+                    <string>valid.apple.com</string>
+                    <string>crl.apple.com</string>
+                    <string>certs.apple.com</string>
+                    <string>appattest.apple.com</string>
+                    <string>register.appattest.apple.com</string>
+                    
+                    <string>mesu.apple.com</string>
+                    <string>gdmf.apple.com</string>
+                    <string>xp.apple.com</string>
+                    <string>swscan.apple.com</string>
+                    <string>swquery.apple.com</string>
+                    <string>swdownload.apple.com</string>
+                    <string>swcdn.apple.com</string>
+                    
+                    <string>vpp.itunes.apple.com</string>
+                    <string>buy.itunes.apple.com</string>
+                    <string>se.itunes.apple.com</string>
+                    <string>se2.itunes.apple.com</string>
+                    <string>su.itunes.apple.com</string>
+                    <string>ax.itunes.apple.com</string>
+                    <string>client-api.itunes.apple.com</string>
+                    
+                    <string>gsas.apple.com</string>
+                    <string>gsas.idms-apple.com.akadns.net</string>
+                    <string>ma-gsa-hb-prod.apple.com</string>
+                    <string>aidc.apple.com</string>
+                    <string>idmsa.apple.com</string>
+                    <string>gsa.apple.com</string>
+                    
+                    <string>init.ess.apple.com</string>
+                    <string>comm-cohort.ess.apple.com</string>
+                    <string>comm-main.ess.apple.com</string>
+                    <string>comm-edge.ess.apple.com</string>
+                    
+                    <string>guzzoni-apple-com.v.aaplimg.com</string>
+                    <string>siri.apple.com</string>
+                    <string>dictation.apple.com</string>
+                    
+                    <string>developer.apple.com</string>
+                    <string>iosapps-ssl.itunes.apple.com</string>
+                    <string>osxapps-ssl.itunes.apple.com</string>
+                    <string>ppq.apple.com</string>
+                    <string>iphone-ld.origin-apple.com</string>
+                    <string>ipad-ld.origin-apple.com</string>
+                    <string>axm-app.apple.com</string>
+                    
+                    <string>crl3.digicert.com</string>
+                    <string>crl4.digicert.com</string>
+                    <string>ocsp.digicert.cn</string>
+                    <string>ocsp.digicert.com</string>
+                    <string>crl.globalsign.com</string>
+                    <string>ocsp.globalsign.com</string>
+                    <string>crl.sectigo.com</string>
+                    <string>ocsp.sectigo.com</string>
+                    
+                    <string>albert.apple.com</string>
+                    <string>captive.apple.com</string>
+                    <string>gs.apple.com</string>
+                    <string>humb.apple.com</string>
+                    <string>static.ips.apple.com</string>
+                    <string>tbsc.apple.com</string>
+                    <string>time-ios.apple.com</string>
+                    <string>time.apple.com</string>
+                    
+                    <string>altstore.io</string>
+                    <string>cdn.altstore.io</string>
+                    <string>f000.backblazeb2.com</string>
+                    <string>appdb.to</string>
+                    <string>api.appdb.to</string>
+                    <string>cdn.appdb.to</string>
+                </array>
+            </dict>
+            <key>OnDemandRules</key>
+            <array>
+                <dict>
+                    <key>Action</key>
+                    <string>Connect</string>
+                    <key>InterfaceTypeMatch</key>
+                    <string>WiFi</string>
+                </dict>
+                <dict>
+                    <key>Action</key>
+                    <string>Connect</string>
+                    <key>InterfaceTypeMatch</key>
+                    <string>Cellular</string>
+                </dict>
+                <dict>
+                    <key>Action</key>
+                    <string>Disconnect</string>
+                    <key>SSIDMatch</key>
+                    <array>
+                        <string>TrustedNetwork</string>
+                    </array>
+                </dict>
+            </array>
+            <key>PayloadDisplayName</key>
+            <string>Cherry Sideloading DNS Pro</string>
+            <key>PayloadIdentifier</key>
+            <string>com.cherrysideloading.dns.sideload.enhanced</string>
+            <key>PayloadOrganization</key>
+            <string>Cherry Sideloading Labs</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>309f8c22-c691-47a1-bf84-a5cbebb42b5e</string>
+            <key>PayloadVersion</key>
+            <integer>2</integer>
+        </dict>
+        
+        <dict>
+            <key>PayloadDisplayName</key>
+            <string>Premium Ad Blocker & Privacy Shield</string>
+            <key>PayloadIdentifier</key>
+            <string>com.cherrysideloading.dns.adblock.premium</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>1234a567-b890-1234-c567-d8901efgh234</string>
+            <key>PayloadVersion</key>
+            <integer>2</integer>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://dns.adguard-dns.com/dns-query</string>
+                <key>ServerName</key>
+                <string>dns.adguard-dns.com</string>
+                <key>SupplementalMatchDomainsNoSearch</key>
+                <array>
+                    <string>push.apple.com</string>
+                    <string>api.push.apple.com</string>
+                    <string>api.development.push.apple.com</string>
+                    <string>mask-api.icloud.com</string>
+                    <string>mask-canary.icloud.com</string>
+                    <string>mask-h2.icloud.com</string>
+                    <string>p100-sandbox.icloud.com</string>
+                    <string>setup.icloud.com</string>
+                    <string>gateway.icloud.com</string>
+                    
+                    <string>smp-device-content.apple.com</string>
+                    <string>wallet-api.apple.com</string>
+                    <string>np-edge.itunes.apple.com</string>
+                    
+                    <string>tv.apple.com</string>
+                    <string>uts-api.itunes.apple.com</string>
+                    <string>play-edge.itunes.apple.com</string>
+                    <string>amp-api.music.apple.com</string>
+                    
+                    <string>gs-loc.apple.com</string>
+                    <string>ls.apple.com</string>
+                    <string>gsp10-ssl.apple.com</string>
+                    <string>gsp47-ssl.apple.com</string>
+                    <string>gsp85-ssl.apple.com</string>
+                    
+                    <string>news-edge.apple.com</string>
+                    <string>news-events.apple.com</string>
+                    <string>stocks-sparkline-lb.apple.com</string>
+                    
+                    <string>weather-analytics-events.apple.com</string>
+                    <string>weather-data.apple.com</string>
+                    
+                    <string>api.palera.in</string>
+                    <string>app.localhost.direct</string>
+                    <string>localhost</string>
+                    <string>127.0.0.1</string>
+                    <string>0.0.0.0</string>
+                    
+                    <string>gc.apple.com</string>
+                    <string>sandbox.gc.apple.com</string>
+                    <string>iad.apple.com</string>
+                    <string>iadsdk.apple.com</string>
+                    
+                    <string>business.apple.com</string>
+                    <string>school.apple.com</string>
+                    <string>appleid.apple.com</string>
+                    <string>iforgot.apple.com</string>
+                    
+                    <string>gsp-ssl.ls.apple.com</string>
+                    <string>feedbackws.icloud.com</string>
+                    <string>fmfmobile.icloud.com</string>
+                    <string>fmipmobile.icloud.com</string>
+                    
+                    <string>configuration.apple.com</string>
+                    <string>pancake.apple.com</string>
+                    <string>pancake.cdn-apple.com</string>
+                    <string>reserve-prime.apple.com</string>
+                    <string>reserve.apple.com</string>
+                </array>
+            </dict>
+            <key>OnDemandRules</key>
+            <array>
+                <dict>
+                    <key>Action</key>
+                    <string>Connect</string>
+                    <key>InterfaceTypeMatch</key>
+                    <string>WiFi</string>
+                </dict>
+                <dict>
+                    <key>Action</key>
+                    <string>Connect</string>
+                    <key>InterfaceTypeMatch</key>
+                    <string>Cellular</string>
+                </dict>
+                <dict>
+                    <key>Action</key>
+                    <string>EvaluateConnection</string>
+                    <key>ActionParameters</key>
+                    <array>
+                        <dict>
+                            <key>DomainAction</key>
+                            <string>ConnectIfNeeded</string>
+                            <key>Domains</key>
+                            <array>
+                                <string>apple.com</string>
+                                <string>icloud.com</string>
+                            </array>
+                        </dict>
+                    </array>
+                </dict>
+            </array>
+        </dict>
+<dict>
+            <key>PayloadType</key>
+            <string>com.apple.webClip.managed</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.cherrysideloading.webclip.main</string>
+            <key>PayloadUUID</key>
+            <string>9876f543-e210-9876-f543-e21098765432</string>
+            <key>PayloadDisplayName</key>
+            <string>Cherry Sideloading Hub</string>
+            <key>PayloadDescription</key>
+            <string>Quick access to Cherry Sideloading tools and resources</string>
+            <key>URL</key>
+            <string>https://cherrysideloading.xyz/</string>
+            <key>Label</key>
+            <string>🍒 Cherry Tools</string>
+            <key>IsRemovable</key>
+            <true/>
+            <key>Precomposed</key>
+            <true/>
+            <key>FullScreen</key>
+            <false/>
+        </dict>
+        
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.security.pkcs1</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.cherrysideloading.security.enhanced</string>
+            <key>PayloadUUID</key>
+            <string>abcd1234-5678-90ef-ghij-klmnopqrstuv</string>
+            <key>PayloadDisplayName</key>
+            <string>Enhanced Security Profile</string>
+            <key>PayloadDescription</key>
+            <string>Advanced security settings for optimal sideloading experience</string>
+        </dict>
+        
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.networkusage</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.cherrysideloading.network.optimization</string>
+            <key>PayloadUUID</key>
+            <string>wxyz9876-5432-10ab-cdef-ghijklmnopqr</string>
+            <key>PayloadDisplayName</key>
+            <string>Network Optimization</string>
+            <key>PayloadDescription</key>
+            <string>Optimized network settings for faster app installations</string>
+            <key>ApplicationRules</key>
+            <array>
+                <dict>
+                    <key>BundleIdentifier</key>
+                    <string>com.apple.AppStore</string>
+                    <key>AllowCellularData</key>
+                    <true/>
+                    <key>AllowRoamingCellularData</key>
+                    <false/>
+                </dict>
+                <dict>
+                    <key>BundleIdentifier</key>
+                    <string>com.apple.mobilesafari</string>
+                    <key>AllowCellularData</key>
+                    <true/>
+                    <key>AllowRoamingCellularData</key>
+                    <true/>
+                </dict>
+            </array>
+        </dict>
+        
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.webcontent-filter</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.cherrysideloading.contentfilter.premium</string>
+            <key>PayloadUUID</key>
+            <string>filter12-3456-789a-bcde-fghijklmnopq</string>
+            <key>PayloadDisplayName</key>
+            <string>Premium Content Filter</string>
+            <key>PayloadDescription</key>
+            <string>Advanced content filtering for superior ad blocking and privacy protection</string>
+            <key>FilterType</key>
+            <string>Plugin</string>
+            <key>UserDefinedName</key>
+            <string>Cherry Ad Shield Pro</string>
+            <key>PluginBundleID</key>
+            <string>com.cherrysideloading.adshield</string>
+            <key>FilterSockets</key>
+            <true/>
+            <key>FilterBrowsers</key>
+            <true/>
+            <key>FilterPackets</key>
+            <false/>
+            <key>VendorConfiguration</key>
+            <dict>
+                <key>BlockAds</key>
+                <true/>
+                <key>BlockTrackers</key>
+                <true/>
+                <key>BlockMalware</key>
+                <true/>
+                <key>BlockPhishing</key>
+                <true/>
+                <key>BlockSocialMedia</key>
+                <false/>
+                <key>AllowAppleServices</key>
+                <true/>
+                <key>AllowSideloadingServices</key>
+                <true/>
+            </dict>
+        </dict>
+        
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.proxy.http.global</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.cherrysideloading.proxy.performance</string>
+            <key>PayloadUUID</key>
+            <string>proxy123-4567-89ab-cdef-ghijklmnopqr</string>
+            <key>PayloadDisplayName</key>
+            <string>Performance Proxy</string>
+            <key>PayloadDescription</key>
+            <string>Optimized proxy settings for faster downloads and improved privacy</string>
+            <key>ProxyType</key>
+            <string>Auto</string>
+            <key>ProxyPACURL</key>
+            <string>https://cherrysideloading.xyz/proxy.pac</string>
+            <key>ProxyPACFallbackAllowed</key>
+            <true/>
+            <key>ProxyCaptiveLoginAllowed</key>
+            <true/>
+        </dict>
+    </array>
+    
+    <key>PayloadDescription</key>
+    <string>Professional-grade DNS configuration with advanced ad blocking, privacy protection, and sideloading optimization. Includes automatic web clip installation and enhanced security features.</string>
+    <key>PayloadDisplayName</key>
+    <string>Cherry Sideloading Pro DNS</string>
+    <key>PayloadCreator</key>
+    <string>Cherry Sideloading 🍒</string>
+    <key>PayloadIdentifier</key>
+    <string>com.cherrysideloading.profile.pro</string>
+    <key>PayloadScope</key>
+    <string>User</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>1772beb3-6488-470b-be06-aaa40f132c40</string>
+    <key>PayloadVersion</key>
+    <integer>3</integer>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadOrganization</key>
+    <string>Cherry Sideloading Labs</string>
+    <key>ConsentText</key>
+    <dict>
+        <key>default</key>
+        <string>This profile will install advanced DNS settings, ad blocking, and privacy protection features. It will also add a convenient shortcut to Cherry Sideloading tools on your home screen. All features can be removed at any time through Settings > General > VPN; Device Management.</string>
+    </dict>
+    <key>PayloadExpirationDate</key>
+    <date>2025-12-31T23:59:59Z</date>
+    <key>DurationUntilRemoval</key>
+    <real>31536000</real>
+    <key>RemovalDate</key>
+    <date>2025-12-31T23:59:59Z</date>
+</dict>
+</plist>
